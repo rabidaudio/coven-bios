@@ -52,13 +52,14 @@
     }
 
     .avatar {
-        max-width: 300px;
-
-
+        width: 300px;
+        height: 300px;
+        overflow: hidden;
     }
     .avatar img {
         width: 100%;
         border-radius: 20%;
+        object-fit: cover;
     }
 
     .links {
@@ -79,37 +80,34 @@
     <div class="left">
 
         <div class="avatar">
-            <img src="maddie.jpg" />
+            <img src="{{avatar_img}}" />
         </div>
 
-      <h1>maddie &lt;3</h1>
+      <h1>{{name}}</h1>
   
-      <p>
-        amateur astrophotographer, broadcast & media technology systems engineer, bass player.
-        currently plotting my escape from the tech industry. 
-      </p>
+      <p>{{bio}}</p>
 
     </div>
 
     <div class="right">
 
         <h2>Stuff I make</h2>
-        <p>small apps, graphics, silly synth noises</p>
+        <p>{{i_make}}</p>
 
         <h2>Ask me about</h2>
-        <p>analog video/audio, scripting & automation, photo & video editing, space facts, live production tech, tracker DAWs</p>
+        <p>{{ask_me_about}}</p>
 
         <h2>I want to learn/improve</h2>
-        <p>electronics, sewing, front-end development</p>
+        <p>{{want_to_learn}}</p>
 
         <h2>Other things I like</h2>
-        <p>coffee, moths, aimlessly wandering around, napping</p>
+        <p>{{hobbies}}</p>
 
         <h2>Find me on the internet</h2>
         <ul class="links">
-            <li><a href="https://bsky.app/profile/maddieisntfunny.bsky.social">maddieisntfunny.gay</a></li> <!-- in which maddie needs to get off her ass and finish her website -->
-            <li><a href="https://instagram.com/maddie.ckc">insta</a></li>
-            <li><a href="https://github.com/maddieisntfunny">github</a></li>
+            {{#links}}
+              <li><a href="https://{{.}}">{{.}}</a></li>
+            {{/links}}
         </ul>
     </div>
   </div>

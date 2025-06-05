@@ -1,0 +1,39 @@
+members:
+  # {your_name}:
+  #   name:
+  #   avatar_path: images/{your_name}.jpg
+  #   bio:
+  #   i_make:
+  #   ask_me_about: 
+  #   want_to_learn: 
+  #   hobbies: 
+  #   links:
+  julien:
+    name: Julien Dorothy ✨
+    avatar_path: images/julien.jpg
+    bio: |
+      Gigging musician, music technologist, entrepreneur. GT EE 2015.
+      Previously co-founder and CTO of FIXD Auto, exited 2023.
+    i_make: Guitar effects pedals, eurorack modules, music, apps
+    ask_me_about: Analog circuits, microprocessors, software development, PCB design, music production, Bluetooth, watchmaking
+    want_to_learn: 3D modeling, sewing, DSP, FPGAs, compilers
+    hobbies: Inline skating, chess, cats, lemon poppyseed cake
+    links:
+      - okaysure.cool
+      - rabid.audio
+      - github.com/rabidaudio
+  maddie:
+    name: maddie <3
+    avatar_path: images/maddie.jpg
+    bio: |
+      amateur astrophotographer, broadcast & media technology systems engineer, bass player.
+      currently plotting my escape from the tech industry. 
+    i_make: small apps, graphics, silly synth noises
+    ask_me_about: analog video/audio, scripting & automation, photo & video editing, space facts, live production tech, tracker DAWs
+    want_to_learn: electronics, sewing, front-end development
+    hobbies: coffee, moths, aimlessly wandering around, napping
+    links:
+      # - maddieisntfunny.gay # in which maddie needs to get off her ass and finish her website
+      - bsky.app/profile/maddieisntfunny.bsky.social
+      - instagram.com/maddie.ckc
+      - github.com/maddieisntfunny

@@ -1,0 +1,28 @@
+{
+  "name": "coven-bios",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "build": "node generate.js",
+    "dev": "swank --watch --open dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabidaudio/coven-bios.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rabidaudio/coven-bios/issues"
+  },
+  "homepage": "https://github.com/rabidaudio/coven-bios#readme",
+  "dependencies": {
+    "glob": "^11.0.2",
+    "mustache": "^4.2.0",
+    "yaml": "^2.8.0"
+  },
+  "devDependencies": {
+    "swank": "^1.4.1"
+  }
+}
