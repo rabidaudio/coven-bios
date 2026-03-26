@@ -37,3 +37,15 @@ members:
       - bsky.app/profile/maddieisntfunny.bsky.social
       - instagram.com/maddie.ckc
       - github.com/maddieisntfunny
+  madelyn:
+    name: Madelyn Y
+    avatar_path: images/madelyn.png
+    bio: |
+      coding witch who likes retro computers, video games and music.
+    i_make: websites, apps, trouble
+    ask_me_about: anything programming related, 8-bit computers, front-end development
+    want_to_learn: 3d printing, 6502 assembly, music theory, electronics, sewing
+    hobbies: avid music listener, boardgames, getting in shape, videos games
+    links:
+      - madelyn.sh
+      - github.com/yry-dev   
